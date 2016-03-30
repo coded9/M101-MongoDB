@@ -10,7 +10,7 @@ Ans:When we call a cursor method passing a callback function to process query re
 var MongoClient = require('mongodb').MongoClient,
     assert = require('assert');
 
-
+//Did this assignment in cloud9 IDE so 0.0.0.0 instead of localhost
 MongoClient.connect('mongodb://0.0.0.0:27017/school', function(err, db) {
 
     assert.equal(err, null);
