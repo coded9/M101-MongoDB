@@ -1,3 +1,13 @@
+#3.1
+```
+mongo --shell localhost/performance performance.js
+homework.init()
+db.sensor_readings.createIndex({"active":1,"tstamp":1})
+db.sensor_readings.getIndexes()
+homework.a()
+Ans:6
+```
+
 #3.3
 ```
 Create an index on the products collection for the field, "for".
