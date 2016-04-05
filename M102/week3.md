@@ -7,6 +7,22 @@ db.sensor_readings.getIndexes()
 homework.a()
 Ans:6
 ```
+#3.2
+```
+mongo --shell localhost/performance performance.js
+homework.b()
+Open another terminal
+mongo --shell localhost/performance performance.js
+homework.c()
+wait for a couple of minutes
+db.currentOp()
+ **In the output it will give some _opid_**
+db.killOp(opid)
+**Upon killing you'll see the output in another shell as _looping_**
+homework.c()
+You'll get the answer //12
+```
+
 
 #3.3
 ```
