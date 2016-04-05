@@ -113,6 +113,7 @@ Observe the output highlighted below
 - [ ] Q2 : 12
 - [ ] Q3 : No
 - [X] Q3 : Yes
+
 #3.4
 ```
 Which of the following are available in WiredTiger but not in MMAPv1? Check all that apply.
