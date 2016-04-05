@@ -80,7 +80,7 @@ Observe the output highlighted below
                                 "keyPattern" : {
                                         "for" : 1
                                 },
-                               ** "indexName" : "for_1",**
+                               ** "indexName" : "for_1" **,
                                 "isMultiKey" : true,
                                 "direction" : "forward",
                                 "indexBounds" : {
