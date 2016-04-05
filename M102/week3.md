@@ -103,7 +103,16 @@ Observe the output highlighted below
                 "gitVersion" : "6ce7cbe8c6b899552dadd907604559806aa2e9bd"
         },
 
-
+- [ ] Q1: 0
+- [ ] Q1: 1
+- [ ] Q1: 3
+- [X] Q1 : 4
+- [ ] Q2 : 1
+- [X] Q2 : 4
+- [ ] Q2 : 5
+- [ ] Q2 : 12
+- [ ] Q3 : No
+- [X] Q3 : Yes
 #3.4
 ```
 Which of the following are available in WiredTiger but not in MMAPv1? Check all that apply.
