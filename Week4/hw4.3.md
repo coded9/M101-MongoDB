@@ -13,7 +13,7 @@ Suppose you are working with a library catalog system containing collections for
 Which of the following is the primary advantage to this design?
 
 - [ ] Can retrieve all data about a book, its publisher, and any patrons who checked out the book with a single query.
-() We get the ability to retrieve a complete checkout history for books as a side effect.
--() We maintain the ability to update patrons, publishers, and books independently and safely rely on MongoDB's foreign key constraints.
--() Can make atomic updates as books are checked out or turned in.
--() Books will not grow beyond the MongoDB document size limit of 16MB.
+- [ ] We get the ability to retrieve a complete checkout history for books as a side effect.
+- [ ] We maintain the ability to update patrons, publishers, and books independently and safely rely on MongoDB's foreign key constraints.
+- [X] Can make atomic updates as books are checked out or turned in.
+- [ ] Books will not grow beyond the MongoDB document size limit of 16MB.
