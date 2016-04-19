@@ -1,0 +1,5 @@
+{"sku" : "sk1","price" : 31,"description" : "Des11","category" : "cat1","brand" : "GE","reviews" : {"author" : "author1" }},
+{"sku" : "SK2","price" : 29,"description" : "Des12","category" : "cat2","brand" : "GE","reviews" : {"author" : "author2"}},
+{"sku" : "SK3",    "price" : 40,"description" : "Des13","category" : "cat3","brand" : "brand3","reviews" : {"author" : "author3"}},
+{"sku" : "Sk4","price" : 55,"description" : "Des13","category" : "cat3","brand" : "GE","reviews" : {"author" : "author3"}},
+{"sku" : "Sk5","price" : 48,"description" : "Des13","category" : "cat4","brand" : "GE","reviews" : {"author" : "author4"}}
