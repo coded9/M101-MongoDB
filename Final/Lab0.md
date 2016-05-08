@@ -11,8 +11,8 @@ Run the application by typing "node mongomart.js" in the mongomart directory.
 In your browser, visit http://localhost:3000. If you've set up and launched MongoMart correctly, you should see a page that lists the same product repeated five times. Which of the following products is it?
 
 
-- ( ) WiredTiger T-shirt
-- (X) Gray Hooded Sweatshirt
-- ( ) Stress Ball
-- ( ) Powered by MongoDB Sticker
-- ( ) MongoDB University Book
+- [ ] WiredTiger T-shirt
+- [X] Gray Hooded Sweatshirt
+- [ ] Stress Ball
+- [ ] Powered by MongoDB Sticker
+- [ ] MongoDB University Book
