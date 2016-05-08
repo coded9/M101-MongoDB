@@ -29,7 +29,7 @@ Select the "Apparel" category by clicking on it with your mouse. This category c
 
 #1A
 ```
-his.getCategories = function(callback) {
+this.getCategories = function(callback) {
         "use strict";
          
         /*
@@ -58,7 +58,8 @@ his.getCategories = function(callback) {
         */
         
         
-         this.db.collection("item").aggregate([{$group:{_id:"$category",total:{$sum:1}}},{$project:{_id:1,num:"$total"}}],
+         this.db.collection("item").aggregate([{$group:{_id:"$category",total:{$sum:1}}},
+         {$project:{_id:1,num:"$total"}}],
          function(err,result){
           	var categories = [];
          	  var totalItems = 0;
