@@ -21,7 +21,7 @@ Which of the following are true of the single item view for the Track Jacket pro
 
 
 ```
-his.getItem = function(itemId, callback) {
+this.getItem = function(itemId, callback) {
         "use strict";
 
         /*
